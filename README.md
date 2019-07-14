@@ -1,2 +1,4 @@
 # br-website
-All source code: frontend and backend for the BR website (www.bruinreview.com) can be found here
+www.bruinreview.com v1 
+
+Technologies: JavaScript ES7 heavy stack featuring MongoDB, Express, GraphQL. 
