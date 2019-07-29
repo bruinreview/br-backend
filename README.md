@@ -1,17 +1,20 @@
 # br-website
 www.bruinreview.com v1 
 
-Technologies: JavaScript ES7 heavy stack featuring MongoDB, Express, GraphQL. 
+Technologies: JavaScript ES7 heavy stack featuring MongoDB, Express. 
 
-Schema 
+Key objects: 
 
 ```
-type Post{ 
+Post   (bruinreview.com/home/postName/
+{ 
 Title: String!
 Content: String! 
-highlighted : [user_id: words_highlighted] 
+highlighted : [{userId, wordsHighlighted}] 
 Views: Int! 
+imgUrl: String!  [Link to s3 resource] 
+quickFacts: {Author, DatePosted}
+EditedBy: String! 
 }  
-
 ```
 
