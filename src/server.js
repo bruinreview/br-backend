@@ -6,6 +6,29 @@ const typeDefs = gql`
   type Query {
     hello: String
   }
+
+  type quickFacts {
+    datePosted: String!
+    author: String!
+    byline: String!
+    categories: [String]!
+  }
+
+  type postHighlight {
+    userID: ID!
+    lines: String!
+  }
+
+ type Post {
+   Title: String!,
+   content: String!,
+   image: String!,
+   contentType: String!,
+   quickFacts: quickFacts
+   isFeatured: Boolean!
+	 highlighted: [postHighlight],
+	 editedBy: String!
+ }
 `;
 
 // Provide resolver functions for your schema fields
