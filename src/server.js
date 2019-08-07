@@ -20,13 +20,13 @@ const typeDefs = gql`
   }
 
  type Post {
-   Title: String!,
-   content: String!,
-   image: String!,
-   contentType: String!,
-   quickFacts: quickFacts,
-   isFeatured: Boolean!,
-	 highlighted: [postHighlight],
+   Title: String!
+   content: String!
+   image: String!
+   contentType: String!
+   quickFacts: quickFacts
+   isFeatured: Boolean!
+	 highlighted: [postHighlight]
 	 editedBy: String!
  }
 `;
