@@ -24,8 +24,8 @@ const typeDefs = gql`
    content: String!,
    image: String!,
    contentType: String!,
-   quickFacts: quickFacts
-   isFeatured: Boolean!
+   quickFacts: quickFacts,
+   isFeatured: Boolean!,
 	 highlighted: [postHighlight],
 	 editedBy: String!
  }
