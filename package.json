@@ -1,0 +1,25 @@
+{
+  "name": "express-graphql",
+  "version": "1.0.0",
+  "description": "graphql server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruinreview/br-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruinreview/br-website/issues"
+  },
+  "homepage": "https://github.com/bruinreview/br-website#readme",
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "apollo-server-express": "^2.8.1",
+    "express": "^4.17.1",
+    "graphql-tools": "^4.0.5"
+  }
+}
